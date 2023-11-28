@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>InsuranceGenie</title>
+</head>
+<body>
+    <div class="header">
+        <marquee behavior="scroll" direction="left">
+            <span>For you and your family</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>For Your Business</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>For Your Future</span>
+        </marquee>
+    </div>
+
+    <div class="chat-container" id="chat-container">
+        <div class="chat-header">
+            <div class="header-controls">
+                <div class="control-box">
+                    <button class="control-button" id="minimize-button">-</button>
+                </div>
+                <div class="control-box">
+                    <button class="control-button" id="maximize-button">+</button>
+                </div>
+                <div class="control-box">
+                    <button class="control-button" id="close-button">&#10006;</button>
+                </div>
+            </div>
+            <img src="{{ url_for('static', filename='img/avatar.png') }}" alt="Avatar Icon" class="avatar">
+            <span class="genie-title">Insurance Genie</span>
+        </div>
+        <div id="chat-messages" class="chat-messages"></div>
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-button">Submit</button>
+        </div>
+    </div>
+
+    <button id="chat-button" class="chat-button">
+        <!-- Replace 'chatbox.svg' with the actual filename of your SVG -->
+        <img id="chat-image" src="{{ url_for('static', filename='img/chat2.svg') }}" alt="Chat Icon">
+    </button>
+
+    <div id="placeholder-content"></div>
+
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>

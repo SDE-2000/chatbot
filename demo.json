@@ -1,0 +1,42 @@
+
+{
+    "evaluate": [
+        "Do u want to evaluate a",
+        "Do u want to evaluate b"
+    ],
+    "claim": [
+        "claim number",
+        "risk of the claim"
+    ],
+    "insurance": [
+        "insurance number",
+        "risk of the insurance"
+    ],
+    "policy": [
+        "policy number",
+        "risk of the policy"
+    ],
+    "risk": [
+        "What is risk"
+    ],
+    "insurance risk": [
+        "Tell me about the risks associated with your insurance policy.",
+        "Explain the risk coverage in your insurance.",
+        "What is the impact of risks on your insurance."
+    ],
+    "claim evaluate": [
+        "How to evaluate a claim?",
+        "Explain the process of evaluating a claim.",
+        "Tell me about the claim evaluation criteria."
+    ],
+    "claim policy": [
+        "Explain the policy related to claims.",
+        "What is the procedure for making a claim according to the policy?",
+        "How does the policy affect claims."
+    ],
+    "claim evaluate insurance policy risk":[
+        "policy number?",
+        "claim number?"
+    ]
+
+}
